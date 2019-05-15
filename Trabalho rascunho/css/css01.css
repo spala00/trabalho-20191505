@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body { height: 100%; }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #2F2E33;
+  }
+  
+  header {
+    padding: 64px;
+    background-color: #E7E7E7;
+  }
+  
+ 
+  
+ 
+  
+  /*************
+  * NAVIGATION *
+  **************/
+  nav {
+    background-color: grey;
+  }
+  
+  .navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+    
+  }
+  
+  .img01{
+      width: 1px;
+      padding: 10px;
+      
+  }
+
+  .navbar ul li {
+    padding: 28px;
+    text-align: right;
+    border-top: 1px solid rgba(255, 255, 255, 0.1); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-flow: left;
+
+  }
+  
+  .navbar  a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+  .navbar a:hover {
+    color: yellow;
+  }
+  
+  
+     
+  }
